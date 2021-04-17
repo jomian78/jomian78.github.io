@@ -1,0 +1,10 @@
+# Block all search engines from indexing your website
+User-agent: *
+Disallow: /
+
+# Block AdsBot crawlers
+User-agent: AdsBot-Google-Mobile
+Disallow: /
+
+User-agent: AdsBot-Google
+Disallow: /
